@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro vida = 100
+    inteiro dano 
+
+    escreva("Digite o dano sofrido: ")
+    leia(dano)
+
+
+    se(dano > vida){
+   escreva("Erro")
+    }senao{
+   escreva("Dano sofrido foi de ",vida - dano)   
+    }
+  }
+}
